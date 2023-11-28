@@ -18,7 +18,7 @@ class AuthController extends Controller
         return view("login-admin");
     }
 
-    function login(Request $request){
+    function login(Request $request){   
         $datalogin = $request->only("username","password");
         if (Auth::guard("login")->attempt($datalogin)) {
             return redirect('/tampilan/admin');

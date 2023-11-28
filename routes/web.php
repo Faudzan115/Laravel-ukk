@@ -8,7 +8,8 @@ Route::get('/', function () {
     return view('walcome');
 });
 
-Route::get('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'tampil_login']);
+Route::get('/login', [AuthController::class, 'login'])->name('login');
 
 Route::get('/register', function () {
     return 'ini halaman register';
