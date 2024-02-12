@@ -8,17 +8,24 @@ Route::get('/', function () {
     return view('walcome');
 });
 
+// home
+Route::get('/home',[AuthController::class,'tampilan_home',]);
+// login
 Route::post('/login', [AuthController::class, 'tampil_login']);
 Route::get('/login', [AuthController::class, 'login'])->name('login');
+// logout
+Route::get('/logout', [AuthController::class, 'login']);
+// register
+Route::get('/register', [AuthController::class, 'tampil_register', ]);
+// penjualan
+Route::get('/detail_penjualan',[AuthController::class,'detail_penjualan',]);
+Route::get('/penjualan', [AuthController::class, 'penjualan', ]);
+// stok
+Route::get('/stok', [AuthController::class, 'tampil_stok', ]);
+// data produk
+Route::get('/data_produk', [AuthController::class, 'data_produk', ]);
+// data pelanggan
+Route::get('/data_pelanggan', [AuthController::class, 'data_pelanggan', ]);
 
-Route::get('/register', function () {
-    return 'ini halaman register';
-});
 
-Route::get('/home', function () {
-    return 'ini halaman home';
-});
 
-Route::get('/admin', function () {
-    return 'ini halaman admin';
-});
