@@ -21,24 +21,18 @@ class AuthController extends Controller
         Session::flush();
         Auth::logout();
 }
-
     function tampilan_home(){
         return view("home");
     }
-
         function login(){
             return view('/login');
-
         }
-
         function tampil_register(){
             return view('/register');
         }
-
         function penjualan(){
             return view('/penjualan');
         }
-
         function detail_penjualan(){
             return view('/detail_penjualan');
         }

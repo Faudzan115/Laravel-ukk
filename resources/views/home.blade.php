@@ -8,10 +8,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
 <nav class="navbar navbar-expand-lg bg-dark" >
   <div class="container-fluid">
-    <a class="navbar-brand" style="color:white" href="#">logo</a>
+    <a class="navbar-brand" style="color:white" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
