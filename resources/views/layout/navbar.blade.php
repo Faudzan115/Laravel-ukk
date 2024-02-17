@@ -11,7 +11,7 @@
 
 <nav class="navbar navbar-expand-lg bg-dark" >
   <div class="container-fluid">
-    <a class="navbar-brand" style="color:white" href="#">logo</a>
+    <a class="navbar-brand" style="color:white" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -54,7 +54,7 @@
       </li>
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="{{'produk'}}">
           <i class='bx bx-package'></i>
             <span class="link_name" >produk</span>
           </a>

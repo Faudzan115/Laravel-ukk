@@ -51,11 +51,9 @@
     </style>
     <title>Register</title>
 </head>
-
 <body>
     <!-- Section: Design Block -->
     <section class="text-center text-lg-start">
-
         <nav class="navbar" style="background-color: 	#B8860B; backdrop-filter: blur(10px);">
             <div class="container">
                 <a class="navbar-brand text-light fs-4" >
@@ -67,7 +65,6 @@
                 </form>
             </div>
         </nav><hr>
-
         <!-- Jumbotron -->
         <div class="container py-4" style="margin:auto">
             <div class="row g-0 align-items-center">
@@ -96,7 +93,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
@@ -111,13 +107,11 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <!-- Password input -->
                                 <div class="form-outline mb-4">
                                     <input id="input" type="password" id="form3Example4" class="form-control" name="password"/>
                                     <label class="form-label" for="form3Example4">Buatlah Password Anda :</label>
                                 </div>
-
                                 <!-- Checkbox -->
                                 <div class="form-check d-flex justify-content-center mb-4">
                                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33"
@@ -126,27 +120,22 @@
                                         Setujui Persyaratan
                                     </label>
                                 </div>
-
                                 <!-- Submit button -->
                                 <button type="submit" class="btn btn-primary btn-block mb-4">
                                     Sign up
                                 </button>
-
                                 <!-- Register buttons -->
                                 <div class="text-center">
                                     <p>Atau Daftar dengan:</p>
                                     <button type="button" class="btn btn-link btn-floating mx-1">
                                         <i class="fa-brands fa-instagram"></i>
                                     </button>
-
                                     <button type="button" class="btn btn-link btn-floating mx-1">
                                         <i class="fab fa-google"></i>
                                     </button>
-
                                     <button type="button" class="btn btn-link btn-floating mx-1">
                                         <i class="fab fa-twitter"></i>
                                     </button>
-
                                     <button type="button" class="btn btn-link btn-floating mx-1">
                                         <i class="fab fa-github"></i>
                                     </button>

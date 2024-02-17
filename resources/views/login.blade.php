@@ -9,7 +9,6 @@
     <title>Halaman Login</title>
     <link rel="stylesheet" href="{{asset('css/login.css')}}">
 </head>
-
 <body>
         <div class="login">
             <form action="home" method="POST">

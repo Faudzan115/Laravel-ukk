@@ -20,12 +20,13 @@ Route::get('/register', [AuthController::class, 'tampil_register', ]);
 // penjualan
 Route::get('/detail_penjualan',[AuthController::class,'detail_penjualan',]);
 Route::get('/penjualan', [AuthController::class, 'penjualan', ]);
-// stok
-Route::get('/stok', [AuthController::class, 'tampil_stok', ]);
-// data produk
+// produk
+Route::get('/produk', [AuthController::class, 'produk', ]);
 Route::get('/data_produk', [AuthController::class, 'data_produk', ]);
+Route::get('/stok', [AuthController::class, 'tampil_stok', ]);
 // data pelanggan
 Route::get('/data_pelanggan', [AuthController::class, 'data_pelanggan', ]);
+
 
 
 

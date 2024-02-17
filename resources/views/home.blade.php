@@ -54,7 +54,7 @@
       </li>
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="{{'produk'}}">
           <i class='bx bx-package'></i>
             <span class="link_name" >produk</span>
           </a>
@@ -136,7 +136,7 @@
                       </svg>
                     <p class="card-text">Jumlah Terjual</p>
                   </div>
-                  <a href="{{'data_produk'}}" class="link-light  link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" >
+                  <a href="{{'detail_penjualan'}}" class="link-light  link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" >
                   <div class="card-footer bg-transparent border-light">More info <svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
                   </svg>

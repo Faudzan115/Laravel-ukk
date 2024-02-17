@@ -11,7 +11,7 @@
 <body>
     @include('layout.navbar')
 <div class="container">
-        <center><h1>Penjualan</h1></center>
+        <center><h1>Produk</h1></center>
     <table  style="margin-top: 2rem;" class="table">
 <div class="container">
 <div class="row">

@@ -51,5 +51,8 @@ class AuthController extends Controller
         function data_pelanggan(){
             return view("data_pelanggan");
         }
+        function produk(){
+            return view("produk");
+        }
     }
 
