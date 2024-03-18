@@ -2,30 +2,43 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
+use App\Models\Masyarakat;
+use App\Models\Pengaduan;
+use Illuminate\Support\Facades\DB;
 
-class PostController extends Controller
+class PengaduanController extends Controller
 {
-    // Metode lainnya...
+   function index(){
 
-    public function login(Request $request)
-    {
-        // Validasi input
-        $request->validate([
-            'username' => 'required|username',
-            'password' => 'required',
-        ]);
+    $judul = "";
+    $penjualan = DB::table('penjualan')->get();
 
-        // Coba melakukan login
-        $credentials = $request->only('username', 'password');
 
-        if (Auth::attempt($credentials)) {
-            // Jika login berhasil
-            return redirect()->intended('/home'); // Ganti '/dashboard' dengan URL yang sesuai
-        }
+    return view('home', ['judul' => $judul, 'penjualan' => $penjualan]);
+   }
+   function penjualan(){
+    return view('/penjualan');
+}
 
-        // Jika login gagal
-        return back()->withErrors(['username' => 'username atau kata sandi salah'])->withInput();
-    }
+  function proses_tambah_penjualan(Request $request){
+    // vaidasi
+    $request->validate([
+      'detail_penjualan' => 'required|min:2'
+    ]);
+
+
+      // $isi_pengaduan = $_POST['isi_laporan'];
+      $penjualan = $request->detail_penjualan;
+
+      DB::table('penjualan')->insert([
+        'penjualanID' => date('Y-m-d'),
+        'TanggalPenjualan' => '123',
+        'TotalHarga' => '3.000',
+        'pelangganID' => '1234',
+    ]);
+
+    return redirect('/home');
+  }
 }

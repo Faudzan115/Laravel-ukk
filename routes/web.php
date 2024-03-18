@@ -3,6 +3,8 @@
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\produkController;
+
 
 Route::get('/', function () {
     return view('walcome');
@@ -21,7 +23,7 @@ Route::get('/register', [AuthController::class, 'tampil_register', ]);
 Route::get('/detail_penjualan',[AuthController::class,'detail_penjualan',]);
 Route::get('/penjualan', [AuthController::class, 'penjualan', ]);
 // produk
-Route::get('/produk', [AuthController::class, 'produk', ]);
+Route::get('/produk', [produkController::class, 'produk', ]);
 Route::get('/data_produk', [AuthController::class, 'data_produk', ]);
 Route::get('/stok', [AuthController::class, 'tampil_stok', ]);
 // data pelanggan

@@ -23,7 +23,7 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="table-secondary"></th>
+            <th scope="row" class="table-secondary">1.</th>
             <td class="table-secondary"></td>
             <td class="table-secondary"></td>
             <td class="table-secondary"></td>

@@ -24,7 +24,7 @@
       </ul>
     </div>
     <ul class="list-group list-group-horizontal">
-    <li class="list-group-item" style="background-color: black; color:aliceblue; border-color: black">| Admin min</li>
+    <li class="list-group-item" style="background-color: black; color:aliceblue; border-color: black">| Admin </li>
 </ul>
     <a class="btn btn-dark" href="{{'register'}}"><i class='bx bx-user'></i></i></a>
 </div>
@@ -37,7 +37,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
-  <div class="sidebar close">
+    <div class="sidebar close">
     <div class="logo-details">
     <i class='bx bx-store'></i>
     <span class="logo_name">KasirZan</span>
@@ -89,7 +89,7 @@
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="sub-menu">
-          <li><a class="link_name" href="#">penjualan</a></li>
+          <li><a class="link_name" href="{{'penjualan'}}">penjualan</a></li>
           <li><a href="{{'detail_penjualan'}}">detail_penjualan</a></li>
          </li>
         </ul>
@@ -105,7 +105,7 @@
   <section class="home-section">
     <div class="home-content">
       <i class='bx bx-menu' ></i>
-      <span class="text">Drop Down webkasir</span>
+      <span class="text">Drop Down WebKasir</span>
     </div>
     <div class="container">
         <div class="container ">

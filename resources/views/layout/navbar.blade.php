@@ -24,9 +24,9 @@
       </ul>
     </div>
     <ul class="list-group list-group-horizontal">
-    <li class="list-group-item" style="background-color: black; color:aliceblue; border-color: black">| Admin min</li>
+    <li class="list-group-item" style="background-color: black; color:aliceblue; border-color: black">| Admin </li>
 </ul>
-    <a class="btn btn-dark" href="{{'register'}}"><i class='bx bx-user'></i></i></a>
+    <a class="btn btn-dark" href="{{'register'}}"><i class='bx bx-user' ></i></i></a>
 </div>
 </nav>
 <html lang="en" dir="ltr">
